@@ -2,6 +2,10 @@ let divtitle=document.createElement("div")
 divtitle.className="titletag"
 let h1=createtag("h1","title","Calculator")
 
+let desc = document.createElement("p");
+desc.setAttribute("id", "description");
+desc.innerText = 'A calculator is a device that performs arithmetic operations on numbers.'
+h1.append(desc)
 
 let div=document.createElement("div");
 div.setAttribute("class","parent");
